@@ -1,0 +1,18 @@
+.page{
+    background-color: gray;
+}
+
+#info{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#button{
+    margin-bottom: 20px;
+}
+.other-info{
+    color: white;
+    text-align: center;
+}

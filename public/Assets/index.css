@@ -1,0 +1,29 @@
+
+.page{
+    background-color: gray;
+}
+
+#info{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+}
+
+#my-name{
+    margin-bottom: 20px;
+    
+}
+
+.float-left{
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#personal-info{
+    margin-top: 30px;
+}
+#resumeHead{
+    text-align: center;
+    color: White;
+}
