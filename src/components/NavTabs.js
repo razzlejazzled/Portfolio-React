@@ -11,13 +11,13 @@ function NavTabs() {
       <li className="btn-dark nav-item">
         <h4>R.J. Gassner</h4>
       </li>
-      <li className="nav-item">
+      <li className="nav-item btn-dark">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
       </li>
       
-      <li className="nav-item">
+      <li className="nav-item btn-dark">
         <Link
           to="/portfolio"
           className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
@@ -25,7 +25,7 @@ function NavTabs() {
           Portfolio
         </Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item btn-dark">
         <Link
           to="/contact"
           className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
