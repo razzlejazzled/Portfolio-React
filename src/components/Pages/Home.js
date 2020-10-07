@@ -1,14 +1,16 @@
 import React from "react";
 
+
 function Home() {
     return (
+        <>
         <Header />
         <div className="container-sm">
         <div className="row">
             <div className="col">
                 <h1>Robert "R.J." Gassner</h1>
                 <img className="float-left" src="http://placekitten.com/150/150"
-                    alt="Placeholder as I do not have any professional headshots" >
+                    alt="Placeholder as I do not have any professional headshots" />
 
                 <p>
                             A former K-12 music educator, musicologist, and retail worker, Robert Gassner brings a wide variety
@@ -62,6 +64,7 @@ function Home() {
         </div>
     </div>
     <Footer />
+    </>
         
     );
 };

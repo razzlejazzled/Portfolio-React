@@ -2,6 +2,7 @@ import React from 'react';
 import Contact from "./components/Pages/Contact";
 import Home from "./components/Pages/Home";
 import Portfolio from "./components/Pages/Portfolio";
+import NavTabs from "./components/NavTabs";
 
 import './App.css';
 
@@ -16,7 +17,7 @@ function App() {
             <Route exactpath="/portfolio" component={Portfolio} />
       </div>
   </Router>
-    );
+    ); 
 }
 
 export default App;
