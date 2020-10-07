@@ -3,8 +3,9 @@ import Contact from "./components/Pages/Contact";
 import Home from "./components/Pages/Home";
 import Portfolio from "./components/Pages/Portfolio";
 import NavTabs from "./components/NavTabs";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import './App.css';
+
 
 
 function App() {
@@ -12,9 +13,9 @@ function App() {
   <Router>
       <div>
           <NavTabs />
-            <Route exactpath="/" component={Home} />
-            <Route exactpath="/contact" component={Contact} />
-            <Route exactpath="/portfolio" component={Portfolio} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/portfolio" component={Portfolio} />
       </div>
   </Router>
     ); 

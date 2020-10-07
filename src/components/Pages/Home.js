@@ -1,10 +1,12 @@
 import React from "react";
+import Footer from "../Footer"
+import "./pageStyles/index.css"
 
 
 function Home() {
     return (
         <>
-        <Header />
+      
         <div className="container-sm">
         <div className="row">
             <div className="col">
@@ -60,7 +62,7 @@ function Home() {
     <div className="container">
         <div className="row">
             <h1 id="resumeHead">Resume</h1>
-            <iframe src="../../public/Assets/CV.pdf" width="100%" height = "500px"></iframe>
+            <iframe src="/Assets/CV.pdf" width="100%" height = "500px"></iframe>
         </div>
     </div>
     <Footer />

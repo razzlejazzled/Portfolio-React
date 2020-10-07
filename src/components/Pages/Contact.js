@@ -1,9 +1,11 @@
 import React from "react";
+import "./pageStyles/portfolio.css";
+import Footer from "../Footer";
 
 function Contact() {
     return (
         <div>
-            <Header />
+       
             <h1> Contact Information </h1>
             <div id="contact-info" className="container-sm">
                 <h1>Or use the following information:</h1>
