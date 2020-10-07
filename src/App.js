@@ -1,10 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import Contact from "./components/Pages/Contact";
+import Home from "./components/Pages/Home";
+import Portfolio from "./components/Pages/Portfolio";
+
 import './App.css';
-import Header from "./components/Header"
+
 
 function App() {
-  
+    return (
+  <Router>
+      <div>
+          <NavTabs />
+            <Route exactpath="/" component={Home} />
+            <Route exactpath="/contact" component={Contact} />
+            <Route exactpath="/portfolio" component={Portfolio} />
+      </div>
+  </Router>
+    );
 }
 
 export default App;
