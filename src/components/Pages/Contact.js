@@ -8,6 +8,10 @@ function Contact() {
 
             <h1> Contact Information </h1>
             <div id="contact-info" className="container-sm">
+                <div className="row">
+                    <p> Email: robertjgassner@gmail.com</p>
+                    
+                </div>
 
                 <div className="row">
                     <h3>Profiles:</h3>
