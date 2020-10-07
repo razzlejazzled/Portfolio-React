@@ -8,37 +8,44 @@
     },
     {
         "id": 2,
-        "name": "",
-        "image": "",
-        "github repo": "",
-        "deployment": ""
+        "name": "Employee Management System",
+        "image": "public/Assets/Images/employeetracking.png",
+        "github repo": "https://github.com/razzlejazzled/employee-tracking",
+        "deployment": "https://youtu.be/JcQz_pZHQiA"
     },
     {
         "id": 3,
-        "name": "",
-        "image": "",
-        "github repo": "",
-        "deployment": ""
+        "name": "Note Taker",
+        "image": "public/Assets/Images/notetaker.png",
+        "github repo": "https://github.com/razzlejazzled/Note-Taker",
+        "deployment": "https://young-oasis-46216.herokuapp.com"
+    },
+    {
+        "id": 4,
+        "name": "Password Generator",
+        "image": "public/Assets/Images/Password.png",
+        "github repo": "https://github.com/razzlejazzled/Password-Creator",
+        "deployment": "https://razzlejazzled.github.io/Password-Creator/"
     },
     {
         "id": 5,
-        "name": "",
-        "image": "",
-        "github repo": "",
-        "deployment": ""
-    },
-    {
-        "id": 5,
-        "name": "",
-        "image": "",
-        "github repo": "",
-        "deployment": ""
+        "name": "Hops & Hounds",
+        "image": "public/Assets/Images/hopnhound.png",
+        "github repo": "https://github.com/razzlejazzled/Project1",
+        "deployment": "https://razzlejazzled.github.io/Project1/"
     },
     {
         "id": 6,
-        "name": "",
+        "name": "Readme Generator",
+        "image": "public/Assets/Images/README_gif.gif",
+        "github repo": "https://github.com/razzlejazzled/README-creator",
+        "deployment": "https://www.youtube.com/watch?v=o9jW6jhYkJw&feature=youtu.be"
+    },
+    {
+        "id": 7,
+        "name": "Code Analysis",
         "image": "",
-        "github repo": "",
-        "deployment": ""
+        "github repo": "N/A",
+        "deployment": " https://docs.google.com/document/d/1izbjGGKcIjKsBuK-3xJKRyPS4_inI4mNEXHKj0HVipc/edit?usp=sharing"
     }
 ]
