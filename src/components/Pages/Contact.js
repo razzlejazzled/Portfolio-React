@@ -4,7 +4,7 @@ import Footer from "../Footer";
 
 function Contact() {
     return (
-        <div>
+        <div className="page">
 
             <h1> Contact Information </h1>
             <div id="contact-info" className="container-sm">

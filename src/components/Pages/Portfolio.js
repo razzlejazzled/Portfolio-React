@@ -9,18 +9,20 @@ class Portfolio extends Component {
     }
     render() {
         return (
-            <div id="info" className="container-sm">
-                <h1 id="head">Portfolio: Robert Jacob Gassner</h1>
+            <div className="page">
                 <div id="info" className="container-sm">
-                    <div className="row">
+                    <h1 id="head">Portfolio: Robert Jacob Gassner</h1>
+                    <div id="info" className="container-sm">
+                        <div className="row">
 
-                        {this.state.projects.map((project) => (
-                            <Project {...project}
-                                key={project.id} />
-                        ))}
+                            {this.state.projects.map((project) => (
+                                <Project {...project}
+                                    key={project.id} />
+                            ))}
+
+                        </div>
 
                     </div>
-
                 </div>
             </div>
         )

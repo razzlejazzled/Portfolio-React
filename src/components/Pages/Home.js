@@ -5,7 +5,7 @@ import "./pageStyles/index.css"
 
 function Home() {
     return (
-        <>
+        <div className = "page">
       
         <div className="container-sm">
         <div className="row">
@@ -61,12 +61,12 @@ function Home() {
     </div>
     <div className="container">
         <div className="row">
-            <h1 id="resumeHead" title="resume">Resume</h1>
-            <iframe src="/Assets/CV.pdf" width="100%" height = "500px"></iframe>
+            <h1 id="resumeHead" >Resume</h1>
+            <iframe src="/Assets/CV.pdf" title="resume" width="100%" height = "500px"></iframe>
         </div>
     </div>
     <Footer />
-    </>
+    </div>
         
     );
 };

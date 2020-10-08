@@ -5,8 +5,8 @@ function NavTabs() {
   const location = useLocation();
 
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg">
+    <div className="header">
+      <nav className="navbar navbar-expand-lg navbar-dark">
     <ul className="navbar-nav mr-auto">
       <li className="btn-dark nav-item">
         <h4>R.J. Gassner</h4>
