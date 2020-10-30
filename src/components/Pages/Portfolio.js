@@ -12,7 +12,7 @@ class Portfolio extends Component {
             <div className="page">
                 <div id="info" className="container-sm">
                     <h1 id="head">Portfolio: Robert Jacob Gassner</h1>
-                    <div id="info" className="container-sm">
+                    <div id="container" className="container-sm">
                         <div className="row">
 
                             {this.state.projects.map((project) => (
