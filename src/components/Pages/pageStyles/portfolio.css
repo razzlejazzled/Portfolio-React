@@ -2,10 +2,14 @@
     background-color: gray;
 }
 
+.component{
+    background-color: gray
+}
+
 #info{
     background-color: darkgrey;
     color: black;
-    margin-top: 20px;
+    margin-top: 2px;
     text-align: center;
 }
 
@@ -25,8 +29,17 @@
 
 #head{
     background-color: gray;
+    
 }
 
 #container{
     background-color: gray;
+}
+
+#root{
+    background-color: gray
+}
+
+#info{
+    background-color: gray
 }
